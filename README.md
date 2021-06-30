@@ -24,17 +24,17 @@
     {{ SHORT PROJECT DESCRIPTION | Documentation for the project }}
     <br />
     <!-- LINK TO DOCUMENTATION -->
-    <!-- <a href="https://{{AUTHOR OR ORGANIZATION}}.github.io/{{REPO TITLE}}/"><strong>Explore the docs »</strong></a>
+    <!-- <a href="https://{{AUTHOR OR ORGANIZATION | Anatrax}}.github.io/{{REPO TITLE}}/"><strong>Explore the docs »</strong></a>
     <br />
     <br /> -->
     <!-- LINK TO DEMO
     <a href="INSERT LINK TO DEMO HERE">View Demo</a>
     · -->
     <!-- LINK TO ISSUES -->
-    <!-- <a href="https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/issues">Report Bug</a>
+    <!-- <a href="https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}/issues">Report Bug</a>
     · -->
     <!-- LINK TO ISSUES -->
-    <!-- <a href="https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/issues">Request Feature</a> -->
+    <!-- <a href="https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}/issues">Request Feature</a> -->
   </p>
 </p>
 
@@ -102,7 +102,7 @@ $ sudo apt-get install texlive-latex-recommended texlive-fonts-recommended texli
 ### Installing
 1. Clone the official repository
     ```bash
-    $ git clone https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}.git
+    $ git clone https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}.git
     ```
 
 <a name="usage"></a>
@@ -190,20 +190,20 @@ Acknowledgements
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[cicd-shield]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/workflows/CI/CD/badge.svg?branch=develop
-[cicd-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/actions "CI/CD"
-[contributors-shield]: https://img.shields.io/github/contributors/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}
-[contributors-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}
-[forks-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/network/members
-[stars-shield]: https://img.shields.io/github/stars/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}
-[stars-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/stargazers
-[issues-shield]: https://img.shields.io/github/issues/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}
-[issues-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/issues
-[license-shield]: https://img.shields.io/github/license/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}
-[license-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/blob/main/LICENSE
+[cicd-shield]: https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}/workflows/CI/CD/badge.svg?branch=develop
+[cicd-url]: https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}/actions "CI/CD"
+[contributors-shield]: https://img.shields.io/github/contributors/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}
+[contributors-url]: https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}
+[forks-url]: https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}/network/members
+[stars-shield]: https://img.shields.io/github/stars/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}
+[stars-url]: https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}/stargazers
+[issues-shield]: https://img.shields.io/github/issues/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}
+[issues-url]: https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}/issues
+[license-shield]: https://img.shields.io/github/license/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}
+[license-url]: https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/{{REPO TITLE}}/blob/main/LICENSE
 
-[workspace]: https://github.com/{{AUTHOR OR ORGANIZATION}}/Project-Workspace "Containerized Worspace"
+[workspace]: https://github.com/{{AUTHOR OR ORGANIZATION | Anatrax}}/Project-Workspace "Containerized Worspace"
 [texlive-docs]: https://www.tug.org/texlive/ "TexLive Documentation"
 [pip-install]: https://pip.pypa.io/en/stable/installing/ "Install Python PIP"
 [sphinx-install]: https://www.sphinx-doc.org/en/master/usage/installation.html "Install Sphinx"
