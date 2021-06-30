@@ -17,24 +17,24 @@
   </a> -->
 
   <!-- PROJECT TITLE -->
-  <h1 align="center">Project Documentation</h1>
+  <h1 align="center">{{ PROJECT TITLE | Project Documentation }}</h1>
 
   <p align="center">
     <!-- SHORT PROJECT DESCRIPTION -->
-    Documentation for the project
+    {{ SHORT PROJECT DESCRIPTION | Documentation for the project }}
     <br />
     <!-- LINK TO DOCUMENTATION -->
-    <!-- <a href="https://{{ORGANIZATION}}.github.io/{{REPO_TITLE}}/"><strong>Explore the docs »</strong></a>
+    <!-- <a href="https://{{AUTHOR OR ORGANIZATION}}.github.io/{{REPO TITLE}}/"><strong>Explore the docs »</strong></a>
     <br />
     <br /> -->
     <!-- LINK TO DEMO
     <a href="INSERT LINK TO DEMO HERE">View Demo</a>
     · -->
     <!-- LINK TO ISSUES -->
-    <!-- <a href="https://github.com/{{ORGANIZATION}}/{{REPO_TITLE}}/issues">Report Bug</a>
+    <!-- <a href="https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/issues">Report Bug</a>
     · -->
     <!-- LINK TO ISSUES -->
-    <!-- <a href="https://github.com/{{ORGANIZATION}}/{{REPO_TITLE}}/issues">Request Feature</a> -->
+    <!-- <a href="https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/issues">Request Feature</a> -->
   </p>
 </p>
 
@@ -44,7 +44,7 @@ Table of Contents
   - [Built with](#about-the-project-built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#getting-started-prerequisites)
-  - [Installing](#getting-started-install)
+  - [Installing](#getting-started-installing)
 - [Usage](#usage)
 - [Roadmap](#roadmap)
 <!-- - [FAQ](#faq) -->
@@ -58,7 +58,7 @@ Table of Contents
 About the Project
 ---------------------
 <!-- A brief description of what this project does and who it's for -->
-This is the documentation for the project.
+{{ SHORT PROJECT DESCRIPTION | This is the documentation for the project. }}
 
 <a name="about-the-project-built-with"></a>
 ### Built with
@@ -102,7 +102,7 @@ $ sudo apt-get install texlive-latex-recommended texlive-fonts-recommended texli
 ### Installing
 1. Clone the official repository
     ```bash
-    $ git clone https://github.com/{{ORGANIZATION}}/{{REPO_TITLE}}.git
+    $ git clone https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}.git
     ```
 
 <a name="usage"></a>
@@ -190,19 +190,20 @@ Acknowledgements
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[cicd-shield]: https://github.com/{{ORGANIZATION}}/{{REPO_TITLE}}/workflows/CI/CD/badge.svg?branch=develop
-[cicd-url]: https://github.com/{{ORGANIZATION}}/{{REPO_TITLE}}/actions "CI/CD"
-[contributors-shield]: https://img.shields.io/github/contributors/{{ORGANIZATION}}/{{REPO_TITLE}}
-[contributors-url]: https://github.com/{{ORGANIZATION}}/{{REPO_TITLE}}/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/{{ORGANIZATION}}/{{REPO_TITLE}}
-[forks-url]: https://github.com/{{ORGANIZATION}}/{{REPO_TITLE}}/network/members
-[stars-shield]: https://img.shields.io/github/stars/{{ORGANIZATION}}/{{REPO_TITLE}}
-[stars-url]: https://github.com/{{ORGANIZATION}}/{{REPO_TITLE}}/stargazers
-[issues-shield]: https://img.shields.io/github/issues/{{ORGANIZATION}}/{{REPO_TITLE}}
-[issues-url]: https://github.com/{{ORGANIZATION}}/{{REPO_TITLE}}/issues
-[license-shield]: https://img.shields.io/github/license/{{ORGANIZATION}}/{{REPO_TITLE}}
-[license-url]: https://github.com/{{ORGANIZATION}}/{{REPO_TITLE}}/blob/main/LICENSE
-[workspace]: https://github.com/{{ORGANIZATION}}/Project-Workspace "Containerized Worspace"
+[cicd-shield]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/workflows/CI/CD/badge.svg?branch=develop
+[cicd-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/actions "CI/CD"
+[contributors-shield]: https://img.shields.io/github/contributors/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}
+[contributors-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}
+[forks-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/network/members
+[stars-shield]: https://img.shields.io/github/stars/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}
+[stars-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/stargazers
+[issues-shield]: https://img.shields.io/github/issues/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}
+[issues-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/issues
+[license-shield]: https://img.shields.io/github/license/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}
+[license-url]: https://github.com/{{AUTHOR OR ORGANIZATION}}/{{REPO TITLE}}/blob/main/LICENSE
+
+[workspace]: https://github.com/{{AUTHOR OR ORGANIZATION}}/Project-Workspace "Containerized Worspace"
 [texlive-docs]: https://www.tug.org/texlive/ "TexLive Documentation"
 [pip-install]: https://pip.pypa.io/en/stable/installing/ "Install Python PIP"
 [sphinx-install]: https://www.sphinx-doc.org/en/master/usage/installation.html "Install Sphinx"
