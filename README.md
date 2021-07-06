@@ -13,7 +13,7 @@
 <p align="center">
   <!-- PROJECT LOGO -->
   <!-- <a href="">
-	<img src="./images/logo.jpg" width="200px" height="auto"/>
+	<img src="./images/logo.jpg" width="200px" height="auto" alt="Logo"/>
   </a> -->
 
   <!-- PROJECT TITLE -->
@@ -58,7 +58,7 @@ Table of Contents
 About the Project
 ---------------------
 <!-- A brief description of what this project does and who it's for -->
-{{ SHORT PROJECT DESCRIPTION | This is the documentation for the project. }}
+{{ LONG PROJECT DESCRIPTION | This is the documentation for the project. }}
 
 <a name="about-the-project-built-with"></a>
 ### Built with
